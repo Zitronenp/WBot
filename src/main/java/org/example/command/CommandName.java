@@ -7,7 +7,7 @@ public enum CommandName {
     HELP("/help", "Command /start to get started\n" +
             "Command /help for help (no one will help you anymore)\n" +
             "Command /weather get information about weather in Ekaterinburg"),
-    WEATHER("/weather", "v Ekaterinburge seychas " + Parsing.parsing()),
+    WEATHER("/weather", "Temperature in Ekaterinburg now is " + Parsing.parsing()),
     UNKNOWN("", "Sorry, I don't know this command ¯\\_(ツ)_/¯");
 
     private String name;

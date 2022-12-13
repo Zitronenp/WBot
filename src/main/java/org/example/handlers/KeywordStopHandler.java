@@ -1,6 +1,6 @@
 package org.example.handlers;
 
-import org.example.dao.Request;
+import org.example.dto.Request;
 
 public record KeywordStopHandler(String stopCommand) implements StopHandler {
     @Override

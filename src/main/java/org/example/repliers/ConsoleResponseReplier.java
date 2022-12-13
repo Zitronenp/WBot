@@ -1,6 +1,6 @@
 package org.example.repliers;
 
-import org.example.dao.Response;
+import org.example.dto.Response;
 
 public class ConsoleResponseReplier implements ResponseReplier {
     @Override

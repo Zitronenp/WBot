@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.bots.TelegramBotStarter;
+import org.example.bot.TelegramBotStarter;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -22,10 +22,6 @@ public class Main {
         return property.getProperty(t);
     }
     public static void main(String[] args) {
-        //ConsoleBot consoleBot = new ConsoleBot();
-        //consoleBot.start();
-
-
         TelegramBotStarter telegramBotStarter = new TelegramBotStarter();
         telegramBotStarter.start();
     }

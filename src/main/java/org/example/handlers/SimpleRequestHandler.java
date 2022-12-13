@@ -1,7 +1,7 @@
 package org.example.handlers;
 
-import org.example.dao.Request;
-import org.example.dao.Response;
+import org.example.dto.Request;
+import org.example.dto.Response;
 
 public class SimpleRequestHandler implements RequestHandler {
     @Override

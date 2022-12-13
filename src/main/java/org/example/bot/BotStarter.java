@@ -1,4 +1,4 @@
-package org.example.bots;
+package org.example.bot;
 
 public interface BotStarter {
     void start();

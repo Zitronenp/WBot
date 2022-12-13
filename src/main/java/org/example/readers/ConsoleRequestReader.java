@@ -1,6 +1,6 @@
 package org.example.readers;
 
-import org.example.dao.Request;
+import org.example.dto.Request;
 import org.telegram.telegrambots.meta.api.objects.Message;
 
 import java.util.Scanner;

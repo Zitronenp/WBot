@@ -1,4 +1,4 @@
-package org.example.bots;
+package org.example.bot;
 
 import org.apache.log4j.Logger;
 import org.example.Main;

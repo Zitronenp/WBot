@@ -1,7 +1,7 @@
-package org.example.bots;
+package org.example.bot;
 
-import org.example.dao.Request;
-import org.example.dao.Response;
+import org.example.dto.Request;
+import org.example.dto.Response;
 import org.example.handlers.KeywordStopHandler;
 import org.example.handlers.RequestHandler;
 import org.example.handlers.SimpleRequestHandler;
